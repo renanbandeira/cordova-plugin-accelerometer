@@ -1,0 +1,20 @@
+<?xml version="1.0" enconding="UTF-8"?>
+<plugin id="com.renanbandeira.accelerometer" version="1.0.0">
+
+    <engines>
+      <engine name="cordova" version=">=3.5.2" />
+    </engines>
+
+    <name>Accelerometer</name>
+    <description>Starts to fetch accelerometer data and, when stops, it comes with the collected data</description>
+
+
+    <platform name="android">
+      <js-module src="www/Accelerometer.js" name="Accelerometer">
+       <clobbers target="Accelerometer" />
+      </js-module>
+      <framework src="src/custom.gradle" custom="true" type="gradleReference" />
+      <source-file src="src/PluginAccelerometer.java" target-dir="src/com/renanbandeira/accelerometer" />
+      <source-file src="src/SensorData.java" target-dir="src/com/renanbandeira/accelerometer" />
+    </platform>
+</plugin>

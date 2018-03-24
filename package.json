@@ -1,0 +1,23 @@
+{
+  "name": "com.renanbandeira.accelerometer",
+  "version": "1.0.0",
+  "description": "Starts to fetch accelerometer data and, when stops, it comes with the collected data",
+  "cordova": {
+    "id": "com.renanbandeira.accelerometer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.5.2"
+    }
+  ],
+  "author": "Renan Bandeira",
+  "license": "ISC"
+}
