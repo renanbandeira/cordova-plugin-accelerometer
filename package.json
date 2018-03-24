@@ -19,5 +19,13 @@
     }
   ],
   "author": "Renan Bandeira",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanbandeira/cordova-plugin-accelerometer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/renanbandeira/cordova-plugin-accelerometer/issues"
+  },
+  "homepage": "https://github.com/renanbandeira/cordova-plugin-accelerometer#readme"
 }
